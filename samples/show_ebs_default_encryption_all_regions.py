@@ -8,7 +8,7 @@ from aws_helpers.all_regions_util import AllRegionsUtil
 
 
 def get_ebs_default_encryption_status(client: boto3.client) -> Dict[str, bool]:
-    """ Gets the default encryption status for a region.
+    """Gets the default encryption status for a region.
 
     Args:
         client: boto3 client
@@ -28,8 +28,6 @@ def main(session: boto3.Session) -> None:
 
     Args:
         session: boto3 session
-
-    Returns:
 
     """
     util = AllRegionsUtil(

@@ -35,6 +35,7 @@ class AllRegionsUtil:
 
         Returns:
             list: Enabled regions.  Example: ['us-east-1', 'us-west-2', ...]
+
         """
 
         logger.info(f"Getting enabled regions for {self.service}.")
